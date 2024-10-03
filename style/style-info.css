@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.infographic-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/* Header Section */
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #FFE6CC;
+    text-align: center;
+}
+
+.header-content h1 {
+    color: #FF6F43;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-content h2 {
+    color: #006B85;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* What and Why Section */
+.what-why-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info-box {
+    width: 90%;
+    max-width: 500px;
+    background-color: #f4f8fc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.info-box .material-icons {
+    font-size: 36px;
+    color: #FF6F43;
+    margin-right: 10px;
+}
+
+.info-box h3 {
+    color: #FF6F43;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* How Section */
+.how-section {
+    margin-top: 40px;
+    background-color: #006B85;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.how-section h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.step-box {
+    background-color: #f4f8fc;
+    color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.step-box .material-icons {
+    font-size: 36px;
+    color: #FF6F43;
+    margin-right: 10px;
+}
+
+.step-box h4 {
+    color: #006B85;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.step-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Extra Notes Section */
+.extra-notes {
+    margin-top: 40px;
+    background-color: #006B85;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.extra-notes h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.notes-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note-box {
+    width: 90%;
+    max-width: 500px;
+    background-color: #f4f8fc;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.note-box .material-icons {
+    font-size: 36px;
+    color: #FF6F43;
+    margin-right: 10px;
+}
+
+.note-box h4 {
+    color: #FF6F43;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.note-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+
+    .header-section {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .what-why-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .notes-grid {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .note-box {
+        width: 30%;
+    }
+
+}

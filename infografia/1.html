@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prostitución Infantil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px; /* Ajustamos para más espacio */
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 20px 0;
+            color: #000;
+            text-transform: uppercase;
+            position: relative;
+            display: inline-block;
+        }
+
+        h1:before {
+            content: 'Prostitución';
+            font-size: 1.2rem;
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 10px;
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-container {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 20px;
+            position: relative;
+            background-color: #fff;
+        }
+
+        .section-content {
+            flex: 1;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .section img {
+            width: 150px; /* Ajustar tamaño según convenga */
+            height: 150px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .number {
+            background-color: black;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+        }
+
+        .section:nth-child(odd) {
+            flex-direction: row-reverse; /* Imagen a la derecha en los paneles impares */
+        }
+
+        .section:nth-child(even) {
+            flex-direction: row; /* Imagen a la izquierda en los paneles pares */
+        }
+
+        /* Colores de fondo para las secciones */
+        .section:nth-child(1) .section-container {
+            background-color: #ffe600;
+        }
+
+        .section:nth-child(2) .section-container {
+            background-color: #add8e6;
+        }
+
+        .section:nth-child(3) .section-container {
+            background-color: #ffb6c1;
+        }
+
+        .section:nth-child(4) .section-container {
+            background-color: #ffa500;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>INFANTIL</h1>
+
+        <div class="section">
+            <div class="section-container">
+                <div class="section-content">
+                    <div class="number">1</div>
+                    <h2>Definición</h2>
+                    <p>Es la explotación sexual de menores a cambio de dinero, bienes o servicios.</p>
+                    <p>Es una violación grave de los derechos de los niños, considerada una forma de abuso sexual y trata de personas.</p>
+                </div>
+                <!-- Imagen decorativa de la primera sección -->
+                <img src="/img/example-3.svg" alt="Definición Icono">
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-container">
+                <div class="section-content">
+                    <div class="number">2</div>
+                    <h2>Datos Claves</h2>
+                    <p>Millones de niños en el mundo son víctimas de la prostitución infantil cada año.</p>
+                    <p>Países más afectados: Afecta tanto a países en vías de desarrollo como desarrollados.</p>
+                    <p>Edades vulnerables: Niñas y niños entre los 12 y 17 años son los más vulnerables.</p>
+                </div>
+                <!-- Imagen decorativa de la segunda sección -->
+                <img src="/img/undraw_mobile_encryption_re_yw3o.svg" alt="Datos Claves Icono">
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-container">
+                <div class="section-content">
+                    <div class="number">3</div>
+                    <h2>Factores</h2>
+                    <p>Pobreza extrema.</p>
+                    <p>Falta de educación y oportunidades.</p>
+                    <p>Violencia intrafamiliar.</p>
+                    <p>Trata de personas.</p>
+                    <p>Turismo sexual.</p>
+                </div>
+                <!-- Imagen decorativa de la tercera sección -->
+                <img src="/img/undraw_social_thinking_re_y8cc.svg" alt="Factores Icono">
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-container">
+                <div class="section-content">
+                    <div class="number">4</div>
+                    <h2>Cómo Ayudar</h2>
+                    <p>Denunciar cualquier sospecha de explotación infantil a las autoridades.</p>
+                    <p>Apoyar a organizaciones que luchan contra la explotación sexual infantil.</p>
+                    <p>Educar a otros sobre los riesgos y señales de la prostitución infantil.</p>
+                </div>
+                <!-- Imagen decorativa de la cuarta sección -->
+                <img src="/img/undraw_a_day_off_re_hedl.svg" alt="Cómo Ayudar Icono">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
